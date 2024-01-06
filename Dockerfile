@@ -1,4 +1,4 @@
-FROM docker.io/python:3.9.16-alpine3.17
+FROM docker.io/python:alpine3.19
 
 RUN sed -i "s/v3.17/edge/g" /etc/apk/repositories
 RUN echo "https://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
